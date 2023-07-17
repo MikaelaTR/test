@@ -7,6 +7,13 @@ Vulpy is a web application developed in Python / Flask / SQLite that has two fac
 
 **BAD**: Tries to code like (possibly) you. :p
 
+Is developed has a laboratory for the following courses:
+
+Secure Development of Securetia (https://www.securetia.com/cursos.html)
+Secure Development of EducaciónIT (https://www.educacionit.com/curso-de-desarrollo-seguro)
+
+But you can use it has you want (MIT License)
+
 
 OWASP Application Security Verification Standard
 ------------------------------------------------
@@ -18,17 +25,17 @@ https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification
 This will permit learn how to develop python code following the best security practices.
 
 
+
 Installation
 ------------
 
 ::
 
-   git clone https://github.com/portantier/vulpy
+   git clone https://github.com/fportantier/vulpy
 
    cd vulpy
 
    pip3 install --user -r requirements.txt
-   pip3 install -e .
 
 
 Features
@@ -52,6 +59,7 @@ Some of the vulnerabilities present on the "BAD" version:
 - SQL Injection
 - Cross Site Request Forgery (CSRF)
 - Session Impersonation
+- Insecure Deserialization
 - Authentication Bruteforce
 - Authentication Bypass
 
